@@ -119,7 +119,7 @@ Finally, we can define what (roughly) is a Git *repository*: it is the data `obj
 
 On disk, all Git stores are objects and references: that’s all there is to Git’s data model. All `git` commands map to some manipulation of the commit DAG by adding objects and adding/updating references.
 
-# 暂存区
+## 暂存区
 
 Git 中还包括一个和数据模型完全不相关的概念，但它确是创建提交的接口的一部分。
 
